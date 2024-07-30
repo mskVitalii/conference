@@ -8,6 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/* routes */}
         <Route path="/" element={<HomePage />} />
         <Route path="/:category" element={<CategoryPage />} />
         <Route path="/:category/:project" element={<ProjectPage />} />
