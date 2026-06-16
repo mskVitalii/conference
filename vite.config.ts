@@ -12,7 +12,7 @@ export default defineConfig({
     host: "localhost"
   },
   build: {
-    outDir: "build"
+    outDir: "dist"
   },
   define: {
     "process.env": process.env
